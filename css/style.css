@@ -6,6 +6,25 @@
     box-sizing: border-box;
 }
 
+/* common */
 
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
 
+.col {
+    float: left;
+    width: calc(100% /3 - 8px);
+    margin: 0 4px;
+}
+
+/* container */
+
+.container {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: blue;
+}
 
