@@ -102,3 +102,17 @@ h4 {
 .real-price {
     text-decoration: line-through;
 }
+
+/* hover  */
+
+.product .second-img {
+    display: none;
+}
+
+.product:hover .second-img {
+    display: inline-block;
+}
+
+.product:hover .first-img {
+    display: none;
+}
